@@ -14,8 +14,17 @@ function johnLennonFacts(array) {
   let x = 0;
   while (x<array.length) {
   newString.push(array[x]+ "!!!");
- //  array[x] = array[x] +"!!!";
     ++x;
   }
   return newString;
+}
+
+function iLoveTheBeatles (number) {
+  var newArray2 = [];
+  do {
+    newArray2.push("I love the Beatles")
+    number++
+  } while (number<15)
+    return newArray2
+  }
 }
