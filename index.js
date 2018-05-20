@@ -13,8 +13,8 @@ function johnLennonFacts(array) {
  var newString = []; 
   let x = 0;
   while (x<array.list) {
-   newString.push(array[x] + "!!!");
-   array[x] = array[x] +"!!!"
+  // newString.push(array[x] + "!!!");
+   array[x] = array[x] +"!!!";
     x++;
   }
   return newString;
