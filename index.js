@@ -13,11 +13,12 @@ function johnLennonFacts(array) {
  var newString = []; 
   let x = 0;
   while (x<array.length) {
-    newString.push(array[x]+"!!!");
+    //newString.push(array[x]+"!!!");
+    array[x] = array[x]+"!!!";
     x++;
   }
-  return newString;
- // return array
+ // return newString;
+ return array;
 }
 
 function iLoveTheBeatles (number) {
